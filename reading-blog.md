@@ -4,6 +4,8 @@ title: Blog
 permalink: /reading-blog/
 ---
 
+# Week 1: "The Humanities" by Willem Drees
+
 In his chapter “The Humanities,” Willem Drees seeks to define, characterize, and contextualize the humanities by examining them from a variety of viewpoints, such as through comparative analysis with the natural sciences, exploring the framework of agents vs. actors, and more. Through this approach, Drees is able to clarify misunderstanding regarding what the humanities actually represent, and to communicate the importance and relevance of studying the humanities to a general audience. Drees contends that there is “much to be discovered about humans, others and ourselves,” and it is precisely this ideological focus on the affective significance of the humanities which drives his larger analytical approach (10).
 
 Regarding the key ideas of this chapter, Drees begins with a distinctive clarification that “we are humans studying humans,” thus emphasizing the self-referential nature of the humanities, which he claims is one of the key distinguishing factors between the humanities and other disciplines (10). This quote also succinctly characterizes the “second-order” nature of the humanities, which is the notion that “there must be humans before there can be humanities” (13). By tying together this distinctive self-referentiality and this “second-order” characterization, Drees pits the humanities as a distinctively humanistic discipline which focuses strongly on the expressive and meaning-laden aspects of culture, art, and history.

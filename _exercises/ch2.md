@@ -1,5 +1,5 @@
 ---
-layout: notebook
+layout: page
 title: Ch. 2 Coding Exercises
 description: Select exercises from Python Crash Course
 ---

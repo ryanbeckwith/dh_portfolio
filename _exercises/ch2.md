@@ -1,3 +1,9 @@
+---
+layout: notebook
+title: Ch. 2 Coding Exercises
+description: Select exercises from Python Crash Course
+---
+
 ### Exercises
 2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 2-10
 

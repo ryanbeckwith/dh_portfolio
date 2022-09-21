@@ -7,7 +7,7 @@ description: Select exercises from Python Crash Course
 # Select Exercises from Chapter 2
 2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 2-10
 
-## 2-1
+# 2-1
 ```python
 # Store a string message in a variable, then print it
 message = "Hello, world!"

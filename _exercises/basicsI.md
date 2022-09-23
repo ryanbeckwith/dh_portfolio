@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ch. 2 Coding Exercises
-description: Select exercises from Python Crash Course
+title: Basics I Coding Exercises
+description: Select exercises from Python Crash Course, chapter 2
 ---
 
 # Select Exercises from Chapter 2

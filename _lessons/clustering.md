@@ -304,7 +304,7 @@ elbowPlot(range(1,11), df_standardized_sliced)
 
 
     
-![png](clustering_files/clustering_17_1.png)
+![png](../assets/clustering_17_1.png)
     
 
 
@@ -320,7 +320,7 @@ silhouettePlot(range(3,9), df_standardized_sliced)
 
 
     
-![png](clustering_files/clustering_18_1.png)
+![png](../assets/clustering_18_1.png)
     
 
 
@@ -366,7 +366,7 @@ sns.scatterplot(x="pc_1", y="pc_2", hue="clusters", data=df_authors_standardized
 
 
     
-![png](clustering_files/clustering_23_1.png)
+![png](../assets/clustering_23_1.png)
     
 
 
@@ -969,7 +969,7 @@ findOptimalEps(2, df_abstracts_tfidf)
 
 
     
-![png](clustering_files/clustering_40_0.png)
+![png](../assets/clustering_40_0.png)
     
 
 

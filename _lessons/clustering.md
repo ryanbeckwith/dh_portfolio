@@ -4,7 +4,9 @@ title: Clustering with Scikit-Learn in Python
 description: This lesson performs clustering on two separate datasets using the scikit-learn library.
 ---
 
-# [Clustering with Scikit-Learn in Python](https://programminghistorian.org/en/lessons/clustering-with-scikit-learn-in-python#introduction)
+## Source
+
+[Clustering with Scikit-Learn in Python](https://programminghistorian.org/en/lessons/clustering-with-scikit-learn-in-python#introduction)
 
 ## Reflection
 

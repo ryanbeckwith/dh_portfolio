@@ -16,7 +16,6 @@ To utilize TF-IDF scores, a convenient implementation of the computational algor
 
 ## Imports
 
-
 ```python
 from pathlib import Path
 # import the TfidfVectorizer from Scikit-Learn.
@@ -27,8 +26,7 @@ import matplotlib.pyplot as plt
 
 ## Loading the dataset
 
-The dataset consists of 366 New York Times historic obituaries scraped from https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/. On each day of the year, The New York Times featured an obituary of someone born on that day.
-
+The dataset consists of 366 New York Times historic obituaries scraped from <https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/>. On each day of the year, The New York Times featured an obituary of someone born on that day.
 
 ```python
 all_txt_files =[]
@@ -41,22 +39,14 @@ print(n_files)
 
     366
 
-
-
 ```python
 all_txt_files.sort()
 all_txt_files[0]
 ```
 
-
-
-
     PosixPath('lesson-files/txt/0101.txt')
 
-
-
 ## Loading text files into memory
-
 
 ```python
 all_docs = []
@@ -68,13 +58,11 @@ for txt_file in all_txt_files:
 
 ## Performing TF-IDF calculations with `sklearn`
 
-
 ```python
 vectorizer = TfidfVectorizer(max_df=.65, min_df=1, stop_words=None,
                              use_idf=True, norm=None)
 transformed_documents = vectorizer.fit_transform(all_docs)
 ```
-
 
 ```python
 transformed_documents_as_array = transformed_documents.toarray()
@@ -82,15 +70,9 @@ transformed_documents_as_array = transformed_documents.toarray()
 len(transformed_documents_as_array)
 ```
 
-
-
-
     366
 
-
-
 ## Creating TF-IDF dataframes for each article
-
 
 ```python
 # make the output folder if it doesn't already exist
@@ -116,7 +98,6 @@ for counter, doc in enumerate(transformed_documents_as_array):
 
 We can plot the top 5 terms with the highest TF-IDF scores for a few select documents using the following function.
 
-
 ```python
 def plot_5_highest(csv_path):
     path = Path(csv_path)
@@ -129,37 +110,22 @@ def plot_5_highest(csv_path):
     plt.show()
 ```
 
-
 ```python
 plot_5_highest("./tf_idf_output/0101.csv")
 ```
 
-
-    
 ![png](../assets/tf-idf_15_0.png)
-    
-
-
 
 ```python
 plot_5_highest("./tf_idf_output/1218.csv")
 ```
 
-
-    
 ![png](../assets/tf-idf_files/tf-idf_16_0.png)
-    
-
-
 
 ```python
 plot_5_highest("./tf_idf_output/1231.csv")
 ```
 
-
-    
 ![png](../assets/tf-idf_17_0.png)
-    
-
 
 We can see that the distribution of terms in these three examples are relatively similar: the first word has a far higher TF-IDF score than the other four words.

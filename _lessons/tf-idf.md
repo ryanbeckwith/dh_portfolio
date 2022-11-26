@@ -136,7 +136,7 @@ plot_5_highest("./tf_idf_output/0101.csv")
 
 
     
-![png](tf-idf_files/tf-idf_15_0.png)
+![png](../assets/tf-idf_15_0.png)
     
 
 
@@ -147,7 +147,7 @@ plot_5_highest("./tf_idf_output/1218.csv")
 
 
     
-![png](tf-idf_files/tf-idf_16_0.png)
+![png](../assets/tf-idf_files/tf-idf_16_0.png)
     
 
 
@@ -158,7 +158,7 @@ plot_5_highest("./tf_idf_output/1231.csv")
 
 
     
-![png](tf-idf_files/tf-idf_17_0.png)
+![png](../assets/tf-idf_17_0.png)
     
 
 

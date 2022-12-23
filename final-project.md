@@ -71,7 +71,7 @@ The plots intended to answer Question 1 are shown below:
 
 #### Plot 1: Top 20 Thematic Tags with the Highest Average Rhyme Scores
 
-![png](./top20.png)
+![png](../assets/top20.png)
 
 This plot shows the top 20 thematic tags which had the highest average rhyme scores, in decreasing order from top to bottom. Furthermore, each bar is colored according to how many poems were contained in the analysis of that tag type, with red being on the low side (~50) and blue being on the high side (~2000).
 
@@ -81,7 +81,7 @@ One thing to keep in mind, however, is that many of the tags with very high rhym
 
 #### Plot 2: Bottom 20 Thematic Tags with the Lowest Average Rhyme Scores
 
-![png](./bottom20.png)
+![png](../assets/bottom20.png)
 
 This plot is colored identically to Plot 1, and simply represents the bottom portion of tags with respect to average rhyme score. We can see that these themes are certainly not as aligned with "love" as in Plot 1: in fact, I would argue that none of these themes are directly related to romantic love, especially not compared to the tags in Plot 1. As such, this is further reinforcement that love poems are especially susceptible to containing end rhymes.
 
@@ -93,7 +93,7 @@ Next, the plot intended to answer Question 2 is shown below:
 
 #### Plot 3: Frequencies of Common Rhyme Schemes
 
-![png](./freqs4.png)
+![png](../assets/freqs4.png)
 
 This visualization plots the frequencies of poems containing particular rhyme schemes that are often found in traditional poems: "abba", "abab", "aabb", and "abcb". In this context, frequency refers to the decimal percentage of poems that contained one or more sequences of 4 lines that matched one of these rhyme schemes.
 
@@ -1254,7 +1254,7 @@ ax.legend(title='# of poems')
 
 
     
-![png](poetry_files/poetry_29_1.png)
+![png](../assets/top20.png)
     
 
 
@@ -1286,7 +1286,7 @@ ax.legend(title='# of poems')
 
 
     
-![png](poetry_files/poetry_30_1.png)
+![png](../assets/bottom20.png)
     
 
 
@@ -1836,6 +1836,6 @@ ax.set_ylabel(f"Frequency (out of all {df.shape[0]} poems)")
 
 
     
-![png](poetry_files/poetry_40_1.png)
+![png](../assets/freqs4.png)
     
 
